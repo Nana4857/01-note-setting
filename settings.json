@@ -157,7 +157,4 @@
     "git.confirmSync": false,
     "git.ignoreRebaseWarning": true,
     /* -------------------------------------------------------------- */
-    "cSpell.userWords": [
-        "Cpath","Csvg","Hiragino","Holonic","Kaku","Linearicons","Meiryo","Mincho","NOINDEX","Sozai","Webclap","accaii","accbox","accshow","acmenu","asago","borderless","coun","cssacc","dltype","endforeach","fromname","fuwaimg","ipcheck","lastup","lazyloaded","lazyloading","morrina","odai","pagetop","rawpixel","swiper"
-    ]
 }
