@@ -1,0 +1,163 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "bounded",
+    "security.workspace.trust.untrustedFiles": "open",
+    /* -------------------------------------------------------------- */
+    // php
+    "php.validate.executablePath": "C:\\php-7.4.2\\php.exe",
+    "php.validate.run": "onType",
+    /* -------------------------------------------------------------- */
+    // コンテンツを再フォーマットしてはならないタグの、コンマ区切りの一覧
+    "html.format.contentUnformatted": "pre, code, textarea, title, h1, h2, h3, h4, h5, h6, p, rt, rp, ruby",
+    // インライン要素をフォーマット：しない
+    "html.format.unformatted": null,
+    "html.format.unformattedContentDelimiter": "pre,code,textarea,span",
+    // <head>セクションと<body>セクションをインデント
+    "html.format.indentInnerHtml": false,
+    // 直前に改行を1つ入れるタグ：なし
+    "html.format.extraLiners": "",
+    // 要素の前にある既存の改行を保持する
+    "html.format.preserveNewLines": true,
+    // 1つのチャンク内に保持できる改行の最大数
+    "html.format.maxPreserveNewLines": 2,
+    // 1行あたりの最大文字数 (0=無効にする)
+    "html.format.wrapLineLength": 0,
+    // エディタのフォント
+    "editor.fontFamily": "'SourceHanCodeJP-Medium', 'Source Han Code JP',  Consolas, 'Courier New', monospace",
+    // テキストコピー時に書式設定を含める
+    "editor.copyWithSyntaxHighlighting": false,
+    // ドラッグアンドドロップで選択範囲のテキストを移動できるようにする
+    "editor.dragAndDrop": false,
+    // 貼り付けを行ったときに自動でフォーマット
+    "editor.formatOnPaste": true,
+    // 制御文字を表示
+    "editor.renderControlCharacters": true,
+    // エディター上での空白文字の表示方法
+    "editor.renderWhitespace": "all",
+    // 行の折りたたみ記号の表示方法
+    "editor.showFoldingControls": "always",
+    // 選択行の行番号ハイライト
+    "editor.renderLineHighlight": "all",
+    // 1つのタブに相当する半角スペースの数
+    "editor.tabSize": 2,
+    // 単語の区切り文字
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?　、。！？「」【】『』（）",
+    // カーソルの点滅スムーズ
+    "editor.cursorBlinking": "smooth",
+    // スムーズスクロール
+    "editor.smoothScrolling": true,
+    // ホバー時メッセージ表示
+    "editor.hover.enabled": false,
+    // ウィンドウの名前
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    // 名前重複時の名前付け規則
+    "explorer.incrementalNaming": "smart",
+    // 検索ビューの検索結果に行数を併記
+    "search.showLineNumbers": true,
+    // ファイル保存時に行末に改行を挿入
+    "files.insertFinalNewline": true,
+    // ファイル保存時に最終行以降の空行を削除
+    "files.trimFinalNewlines": true,
+    // ファイル保存時に各行の末尾にある半角スペースを削除
+    "files.trimTrailingWhitespace": true,
+    /* -------------------------------------------------------------- */
+    // emmetで入力すると自動でコメントが付く
+    // "emmet.syntaxProfiles": {
+    //   "html": {
+    //     "filters": "html,c"
+    //   }
+    // },
+    // "emmet.preferences": {
+    //   "filter.commentAfter": "<!-- /[#ID][.CLASS] -->"
+    // },
+    // Emmetの候補を表示
+    "emmet.showSuggestionsAsSnippets": true,
+    // TABキーでEmmet展開
+    "emmet.triggerExpansionOnTab": true,
+    // Emmet展開のHTML言語変更
+    "emmet.variables": {
+        "lang": "ja"
+    },
+    /* -------------------------------------------------------------- */
+    // w3c validator
+    "vscode-w3cvalidation.javaHome": "C:\\Program Files\\Java\\jdk-16.0.2",
+    /* -------------------------------------------------------------- */
+    // オートセーブ
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    /* live preview */
+    // 情報メッセージを表示しない
+    "liveServer.settings.donotShowInfoMsg": true,
+    // ライブプレビューのブラウザ設定
+    "liveServer.settings.CustomBrowser": "firefox",
+    // ブラウザの拡張機能使用
+    "liveServer.settings.useWebExt": true,
+    /* -------------------------------------------------------------- */
+    // html
+   "[html]": {
+       // フォーマッターを既存のものに
+       "editor.defaultFormatter": "vscode.html-language-features",
+       //終了タグが自動で生成されるのを防ぐ
+       // "editor.suggest.insertMode": "replace",
+       // 自動フォーマット
+       "editor.formatOnSave": true
+   },
+   // js・css
+   "[javascript]": {
+       // フォーマッターをbeautifyに
+       "editor.defaultFormatter": "HookyQR.beautify"
+   },
+   "[css]": {
+       // フォーマッターをbeautifyに
+       "editor.defaultFormatter": "HookyQR.beautify"
+       //終了タグが自動で生成されるのを防ぐ
+       // "editor.suggest.insertMode": "replace",
+   },
+   // json
+   "[json]": {
+       "editor.defaultFormatter": "HookyQR.beautify"
+   },
+   "[jsonc]": {
+       "editor.defaultFormatter": "HookyQR.beautify"
+   },
+   // php
+   "[php]": {
+       "editor.defaultFormatter": "vscode.php-language-features"
+   },
+   "[erb]": {
+       "editor.defaultFormatter": "HookyQR.beautify"
+   },
+    /* -------------------------------------------------------------- */
+    // 組み込みの PHP 言語候補機能を有効にするかどうかを制御
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    /* -------------------------------------------------------------- */
+    // Minifier
+    "folders": [
+        {"path": "."}
+    ],
+    "es6-css-minify.minifyOnSave": "yes",
+    /* -------------------------------------------------------------- */
+    // formatter
+    "beautify.language": {
+        "js": {
+            "type": ["javascript","json"],
+            "filename": [".jshintrc",".jsbeautifyrc"]
+            // "ext": ["js", "json"]
+            // ^^ to set extensions to be beautified using the javascript beautifier
+        },
+        "css": ["css","scss"],
+        "html": ["htm","html","erb"] //"erb"を追加
+        // ^^ providing just an array sets the VS Code file type
+    },
+    /* -------------------------------------------------------------- */
+    // git
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.ignoreRebaseWarning": true,
+    /* -------------------------------------------------------------- */
+    "cSpell.userWords": [
+        "Cpath","Csvg","Hiragino","Holonic","Kaku","Linearicons","Meiryo","Mincho","NOINDEX","Sozai","Webclap","accaii","accbox","accshow","acmenu","asago","borderless","coun","cssacc","dltype","endforeach","fromname","fuwaimg","ipcheck","lastup","lazyloaded","lazyloading","morrina","odai","pagetop","rawpixel","swiper"
+    ]
+}
