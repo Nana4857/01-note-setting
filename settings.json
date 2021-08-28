@@ -155,6 +155,6 @@
     "git.autofetch": true,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
-    "git.ignoreRebaseWarning": true,
+    "git.ignoreRebaseWarning": true
     /* -------------------------------------------------------------- */
 }
